@@ -10,10 +10,13 @@ export default function Home() {
     <div className="flex flex-col h-screen justify-center items-center text-center">
       <div className="mb-8">
         <SplitText className="text-5xl tracking-tighter font-medium">
-          Not Sure Where To Start With AI?
+          Not sure where to start with AI?
         </SplitText>
         <SplitText className="tracking-tight text-xl">
-          Join Our Waitlist For Early Access
+          We're building the simplest way for small businesses to reach their goals with automation.
+        </SplitText>
+        <SplitText className="tracking-tight text-xl">
+          Join our waitlist for early access!
         </SplitText>
       </div>
       <WaitlistForm />
